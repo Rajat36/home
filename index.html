@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment|Home</title>
+</head>
+<body>
+    
+  <div class="pay">
+        <h1>Payment</h1>
+        <h2>Details</h2>
+        <p>this site is powered by rajat.</p>
+        <form action="">
+            <div class="details">
+                <p>Name : *<input type="text" name="Name" required></p>
+                <p>Course : <input type="text" name="Course"></p>
+                <p>Email : <input type="email" name="Email" required></p>
+                <fieldset>
+                    <legend>Gender</legend>
+                <p> Male <input type="radio">  Female <input type="radio"></p>
+                </fieldset>
+              <p> Address : <textarea name="Address" id="Address" cols="100" rows="10"></textarea> </p>
+              <p> Pincode : <input type="number" name="Pincode" id="Pincode" required></p>
+             </div>
+                <h2>Payment Information</h2>
+             <p>Card Type: 
+                 <select name="CardType" id="CardType" required>
+                     <option value="" >--Select a card Type--</option>
+                     <option value="visa">Visa</option>
+                     <option value="master">Master card</option>
+                     <option value="rupay">Rupay</option>
+                 </select>
+             </p>
+             <p>
+                 Card Number <input type="number" name="cno" id="cno" required>
+             </p>
+             <p>
+                 Exp Date: <input type="date" name="expdate" id="expdate" required>
+             </p> 
+             <p>CVV: <input type="password" name="cvv" id="cvv" required></p> 
+             
+             <input type="button" value="Pay Now">
+        </form>
+    </div> 
+</body>
+</html>
